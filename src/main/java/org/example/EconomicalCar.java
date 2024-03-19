@@ -4,6 +4,7 @@ public class EconomicalCar extends CarAbstract {
     public static final int HYBRID = 10;
     private boolean isHybrid;
 
+
     @Override
     public int calculatePrice() {
         int price = BASE_PRICE;
